@@ -673,8 +673,10 @@ img {
     padding: 0 1.5rem;
 }
 
-.portfolio_img {
-    height: 200px;
+.project-card{
+    padding: 40px;
+}
+.portfolio_img{
     border-radius: 0.5rem;
     justify-self: center;
 }
@@ -700,11 +702,6 @@ img {
 .swiper-button-prev::after,
 .swiper-button-next::after {
     content: '';
-    color: var(--first-color);
-}
-
-.swiper-portfolio-icon {
-    font-size: 2rem;
     color: var(--first-color);
 }
 
@@ -1141,10 +1138,6 @@ img {
     .portfolio_img {
         height: 300px;
         width: auto;
-    }
-
-    .swiper-portfolio-icon {
-        font-size: 3.5rem;
     }
 
     .swiper-button-prev {

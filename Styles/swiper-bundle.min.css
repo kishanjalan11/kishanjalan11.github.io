@@ -158,14 +158,15 @@
 }
 
 :root {
-    --swiper-navigation-size: 44px;
+    --swiper-navigation-size: 35px;
 }
 
 .swiper-button-next,
 .swiper-button-prev {
     position: absolute;
     top: 50%;
-    width: calc(var(--swiper-navigation-size) / 44 * 27);
+    font-weight: bold;
+    width: calc(var(--swiper-navigation-size) / 35 * 27);
     height: var(--swiper-navigation-size);
     margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
     z-index: 10;
@@ -196,7 +197,7 @@
 
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
-    left: 10px;
+    left: 0px;
     right: auto;
 }
 
@@ -207,7 +208,7 @@
 
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
-    right: 10px;
+    right: 0px;
     left: auto;
 }
 
