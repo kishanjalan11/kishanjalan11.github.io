@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishan Jalan | Portfolio</title>
+    <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="stylesheet" href="./Styles/calendar.css" />
+    <link rel="stylesheet" href="./Styles/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+    <link rel="icon" href="Assets/Fav Icon.png">
+</head>
+
+<body>
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-= NAVBAR =-=-=-=-=-=-=-=-=-=-=-=-=-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav_logo"><span> < Kishan </span>Jalan / ></a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link nav-link home active-link">
+                            <i class="uil uil-estate nav_icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link nav-link about">
+                            <i class="uil uil-user nav_icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link nav-link skills">
+                            <i class="uil uil-file-alt nav_icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#projects" class="nav_link nav-link projects">
+                            <i class="uil uil-briefcase-alt nav_icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#statistics" class="nav_link">
+                            <i class="uil uil-graph-bar nav_icon"></i> Github
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link nav-link contact">
+                            <i class="uil uil-message nav_icon"></i> Contact Me
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <button id="resume-button-1" class="nav-link resume">
+                            <a href="./Assets/Kishan-Jalan-Resume.pdf" class="button-flex" id="resume-link-1"
+                            onclick="window.open('https://drive.google.com/file/d/1jZQJhs1CBY7TBpynnwTvuv7wlWB5hLeF/view')"
+                            target="_blank" download="Kishan-Jalan-Resume.pdf" >
+                                <i class="uil uil-download-alt nav_icon"></i> Resume
+                            </a>
+                        </button>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+            <div class="nav_btns">
+                <!------- Theme Changer ------->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-= /NAVBAR =-=-=-=-=-=-=-=-=-=-=-=-=-->
+    
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-= MAIN =-=-=-=-=-=-=-=-=-=-=-=-=-->
+    <main class="main">
+        
+        <!---------------- Home ---------------->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    <div class="home_social">
+                        <a id="contact-linkedin" href="https://www.linkedin.com/in/kishan-jalan-517497246/" target="_blank"
+                            class="home_social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a id="contact-github" href="https://github.com/kishanjalan11" target="_blank"
+                            class="home_social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+                    <div class="home_img">
+                        <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image x="10" y="1" class="home_blob-img" href="./Assets/Profile Pic.png" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="home_data">
+                        <h1 class="home_title" id="user-detail-name">Hi👋, I'm<br>Kishan Jalan</h1>
+                        <h3 class="home_subtitle"><span class="auto-type"></span></h3>
+                        <p class="home_description">"Welcome to the realm of possibilities! I'm a Java developer, fueled by curiosity and dedicated to crafting cutting-edge solutions. Let's embark on a journey of innovation together, shaping a dynamic digital landscape."</p>
+                        <div class="btn_container">
+                            <a href="#contact" class="button button-flex sec_button">
+                                Connect with Me <i class="uil uil-message button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="home_scroll">
+                    <a href="#about" class="home_scroll-button button-flex">
+                        <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                        <span class="home_scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!---------------- /Home ---------------->
+
+        <!---------------- About ---------------->
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+            <div class="about_container container grid">
+                <div class="about_data">
+                    <p class="about_description"  id="user-detail-intro"> As a former commerce student turned coding enthusiast,
+                        I have a passion for exploring both the natural world and the digital realm.
+                         My journey into coding began as a curiosity, but quickly turned into a full-blown pursuit as I discovered the power and potential of Web Development.
+                          Now, I am honing my skills and building some great projects that showcases my creativity, technical abilities, and problem-solving mindset.
+                        When I'm not coding, you can find me indulging in one of my favorite hobbies which are travelling or playing games.
+                         I love immersing myself in different cultures, cuisines, and landscapes, and using these experiences to inspire and inform my work. 
+                         Whether I'm hiking through the mountains or exploring a bustling city, I always keep an open mind and a sense of wonder.</p>
+                    <div class="about_info">
+                        <div>
+                            <span class="about_info-title">1200+</span>
+                            <span class="about_info-name">Hours of Coding</span>
+                        </div>
+                        <div>
+                            <span class="about_info-title">200+</span>
+                            <span class="about_info-name">Mini Assignments</span>
+                        </div>
+                        <div>
+                            <span class="about_info-title">5+</span>
+                            <span class="about_info-name">Completed Projects</span>
+                        </div>
+                    </div>
+                    <div class="about_buttons">
+                        <a href="./Assets/Kishan-Jalan-Resume.pdf" class="button button-flex" id="resume-button-2" 
+                        onclick="window.open('https://drive.google.com/file/d/1jZQJhs1CBY7TBpynnwTvuv7wlWB5hLeF/view')" 
+                        target="_blank" download="Kishan-Jalan-Resume.pdf" >
+                            My Resume <i class="uil uil-download-alt button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-------- Qualifications -------->
+            <div class="qualification">
+                <div class="qualification_container container">
+                    <div class="qualification_tabs">
+                        <div class="qualification_button button-flex qualification_active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qualification_icon"></i>&nbsp;Education
+                        </div>
+                        <!-- <div class="qualification_button button-flex" data-target='#work'>
+                            <i class="uil uil-briefcase-alt qualification_icon"></i>&nbsp;Work
+                        </div> -->
+                    </div>
+
+                    <div class="qualification_sections">
+                        <!-----  Qualification Education Content   ----->
+                        <div class="qualification_content qualification_active" data-content id="education">
+                            <!-- Qualification 1 -->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title"> Full Stack Web Development (Full Time) </h3>
+                                    <span class="qualification_subtitle">Masai, Bengaluru</span>
+                                    <div class="qualification_calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        February 2023 - Present
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>
+                            <!-- Qualification 2 -->
+                            <div class="qualification_data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification_title">Bachelor's of Commerce (Accounting & Finance)</h3>
+                                    <span class="qualification_subtitle">Calcutta University</span>
+                                    <div class="qualification_calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        July 2019 - July 2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-----  Work Experience Content   ----->
+                        <!-- <div class="qualification_content" data-content id="work">
+                            Experience 1
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Frontend Developer Intern</h3>
+                                    <span class="qualification_subtitle">ZOTH.io, Bangalore</span>
+                                    <div class="qualification_calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        April 2023 - Present
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>
+                            Experience 2
+                            <div class="qualification_data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification_title">Frontend Develoepr Intern</h3>
+                                    <span class="qualification_subtitle">BB Bunkerbound, Faridabad</span>
+                                    <div class="qualification_calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Jan 2023 - April 2023
+                                    </div>
+                                </div>
+                            </div> 
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------- /About ---------------->
+
+        <!---------------- Skills ---------------->
+        <section class="skills section" id="skills">
+            <h2 class="section_title">Skills & Tools</h2>
+
+            <div class="skills_container container grid">
+                <div>
+                    <!-- Backend Development -->
+                    <div class="skills_content skills_open">
+                        <div class="skills_header">
+                            <i class="uil uil-server-network skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Backend Development</h1>
+                                <span class="skills_subtitle"></span>
+                            </div>
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">Java</h3>
+                                    <span><i class="bx bxl-java skills-card-img"></i></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">Spring Boot</h3>
+                                    <span><i class='bx bxl-spring-boot skills-card-img'></i></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">MySQL</h3>
+                                    <span><i class='bx bxs-data skills-card-img'></i></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">JDBC</h3>
+                                    <span><i class='bx bx-link skills-card-img'></i></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">Hibernate</h3>
+                                    <span><i class='bx bxs-cube-alt skills-card-img'></i></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frontend Development -->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="uil uil-arrow skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Frontend Development</h1>
+                                <span class="skills_subtitle"></span>
+                            </div>
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">HTML</h3>
+                                    <span><i class='bx bxl-html5 skills-card-img'></i></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">CSS</h3>
+                                    <span><i class='bx bxl-css3 skills-card-img'></i></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">JavaScript</h3>
+                                    <span><i class='bx bxl-javascript skills-card-img'></i></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!-- Other Tech Tools -->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="uil uil-icons skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Other Tech Tools</h1>
+                                <span class="skills_subtitle"></span>
+                            </div>
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">VS Code</h3>
+                                    <span><i class='bx bxl-visual-studio skills-card-img'></i></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">Spring Tool Suite</h3>
+                                    <span><i class='bx bxl-spring-boot skills-card-img'></i></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">GitHub</h3>
+                                    <span><i class="uil uil-github-alt skills-card-img"></i></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">PostMan</h3>
+                                    <span><i class='bx bxs-pen skills-card-img'></i></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">CodePen</h3>
+                                    <span><i class='bx bxl-codepen skills-card-img'></i></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">Prompt Engineering</h3>
+                                    <span><i class="fa-solid fa-certificate skills-card-img"></i></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Design Tools -->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="uil uil-illustration skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Design Tools</h1>
+                                <span class="skills_subtitle"></span>
+                            </div>
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">Canva</h3>
+                                    <span class="skills-card-img"></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data skills-card">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name skills-card-name">Flow CV</h3>
+                                    <span class="skills-card-img"></span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------- Skills ---------------->
+
+        <!---------------- Projects ---------------->
+        <section class="portfolio section" id="projects">
+            <h2 class="section_title">Projects</h2>
+            <!-- <div class="portfolio_container container swiper-container"> -->
+                <!-- <div class="swiper-wrapper"> -->
+                    
+                    <!-- Project 1 -->
+                    <div class="portfolio_content grid swiper-slide project-card" class="project-card" >
+                        <img src="/Assets/Moonshine.png" alt="" class="portfolio_img">
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title project_title">Moonshine Digital Agency</h3>
+                            <p class="portfolio_description project-tech-stack project-description">
+                                A digital marketing agency website offering user authentication, filtering, search bar, and admin functionality. 
+                                <br><br>
+                                <b>Tech Stack</b> - HTML | CSS | JavaScript <br>
+                                <b>Features</b> - User authentication | Filtering | Search bar | Admin side  
+                              </p>
+                            <a href="https://github.com/kishanjalan11/Moonshine_Digital" target="_blank"
+                                class="project-github-link button button-flex button-small portfolio_button">
+                                Git Repo.
+                                <i class="uil uil-github-alt button_icon"></i>
+                            </a>
+                            <a href="https://moonshine-digital.netlify.app/" target="_blank"
+                                class="button button-flex button-small portfolio_button project-deployed-link">
+                                Deployed
+                                <i class="uil uil-external-link-alt button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="portfolio_content grid swiper-slide project-card" class="project-card" >
+                        <img src="/Assets/Meat-a-dora.png" alt="" class="portfolio_img">
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title project_title">Meat-a-dora</h3>
+                            <p class="portfolio_description project-tech-stack project-description">
+                                A D2C e-commerce website that offers high-quality, fresh seafood and meat, in addition to ready-to-cook and ready-to-eat products inspired by licious.com 
+                                <br><br>
+                                <b>Tech Stack</b> - HTML | CSS | JavaScript <br>
+                                <b>Features</b> - User authentication | Search functionality | Individual Product Page | Browse Through Products
+                              </p>
+                            <a href="https://github.com/kishanjalan11/Meat-a-dora" target="_blank"
+                                class="project-github-link button button-flex button-small portfolio_button">
+                                Git Repo.
+                                <i class="uil uil-github-alt button_icon"></i>
+                            </a>
+                            <a href="https://meat-a-dora.netlify.app/" target="_blank"
+                                class="button button-flex button-small portfolio_button project-deployed-link">
+                                Deployed
+                                <i class="uil uil-external-link-alt button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="portfolio_content grid swiper-slide project-card" class="project-card" >
+                        <img src="/Assets/Stock G.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title project_title">Stock G</h3>
+                            <p class="portfolio_description project-tech-stack project-description">
+                                Inspired by successful platforms like Zerodha, StockG is a comprehensive trading platform aimed at empowering investors and traders to buy and sell stocks with simplicity and accuracy.
+                                <br><br>    
+                                <b>Tech Stack</b> - Java <br>
+                              </p>
+                            <a href="https://github.com/kishanjalan11/StockG" target="_blank"
+                                class="project-github-link button button-flex button-small portfolio_button">
+                                Git Repo.
+                                <i class="uil uil-github-alt button_icon"></i>
+                            </a>
+                            <a href="https://drive.google.com/file/d/1B0vf6KqnZTaFWDFh-dvZlzMbYWvP3oiY/view?usp=drive_link" target="_blank"
+                                class="button button-flex button-small portfolio_button project-deployed-link">
+                                Video
+                                <i class="uil uil-external-link-alt button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                     <!-- Project 4 -->
+                     <div class="portfolio_content grid swiper-slide project-card" class="project-card" >
+                        <img src="/Assets/Covid_19.jpg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title project_title">Covid 19 Vaccination Portal</h3>
+                            <p class="portfolio_description project-tech-stack project-description">
+                                Covid-19 Vaccination Registration Using REST API, This module offers real-time information, risk assessment, vaccination booking, and community support to combat the pandemic effectively.
+                                <br><br>
+                                <b>Tech Stack</b> - Java | Hibernate | Spring Boot | Postman | MySQL | Maven | Swagger UI | Lombok | HTML | CSS | JavaScript | Swagger<br>
+                              </p>
+                            <a href="https://github.com/kishanjalan11/Covid19_Vaccination" target="_blank"
+                                class="project-github-link button button-flex button-small portfolio_button">
+                                Git Repo.
+                                <i class="uil uil-github-alt button_icon"></i>
+                            </a>
+                            <a href="https://drive.google.com/file/d/1viq8YSPI2ffzqriHMKuAZqUTmSqVZ309/view?usp=drive_link" target="_blank"
+                                class="button button-flex button-small portfolio_button project-deployed-link">
+                                Video
+                                <i class="uil uil-external-link-alt button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                     
+                    
+                    <!-- Project 5 -->
+                    <div class="portfolio_content grid swiper-slide project-card" class="project-card" >
+                        <img src="/Assets/Mind Mesh.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title project_title">Mind Mesh</h3>
+                            <p class="portfolio_description project-tech-stack project-description">
+                                Mock Interview Simulator with AI-Powered Feedback
+                                <br><br>
+                                <b>Tech Stack</b> - Java | React | TypeScript | JavaScript | HTML | Tailwind CSS 
+                                <br>
+                              </p>
+                            <a href="https://github.com/kishanjalan11/MindMesh" target="_blank"
+                                class="project-github-link button button-flex button-small portfolio_button">
+                                Git Repo.
+                                <i class="uil uil-github-alt button_icon"></i>
+                            </a>
+                            <a href="https://drive.google.com/file/d/1eQrW9SKqFmJfipo4uRSeW-CZNDLuouTV/view" target="_blank"
+                                class="button button-flex button-small portfolio_button project-deployed-link">
+                                Video
+                                <i class="uil uil-external-link-alt button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                <!-- </div>   -->
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div> -->
+            <!-- </div> -->
+        </section>
+        <hr class="hr_break_line">
+        <!---------------- /Projects ---------------->
+
+        <!---------------- Stats ---------------->
+        <section class="statistics section" id="statistics">
+            <h2 class="section_title">Statistics</h2>
+            <span class="section_subtitle">My Github Statistics</span>
+            <div class="statistics_container container grid">
+                <img src="https://github-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=transparent&locale=en&hide_border=false&username=kishanjalan11" height="150" alt="stats graph"  id="github-stats-card"  />
+                <img  src="https://github-readme-streak-stats.herokuapp.com/?user=kishanjalan11&theme=transparent" id="github-streak-stats"/> 
+                <img src="https://github-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=transparent&hide_border=false&username=kishanjalan11" height="150" alt="languages graph"  id="github-top-langs" />
+            </div>
+            <span class="section_subtitle">Github Calendar</span>
+            <div class="react-activity-calendar calendar">
+                   <img style="width: 100%;" src="https://ghchart.rshah.org/0A66C2/kishanjalan11" alt="">
+            </div>
+        </section>
+        <!---------------- /Stats ---------------->
+        
+        <!---------------- Contact ---------------->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+            <div class="contact_container container grid">
+                <div>
+                    <p class="contact_message">I am currently probably napping or building something amazing.
+                        Feel free to drop a message for any suggestion or collaboration,
+                        and we can get in touch.
+                    </p>
+                    <div class="contact_information">
+                        <i class="uil uil-phone-alt contact_icon"></i>
+
+                        <div>
+                            <h3 id="contact-phone" class="contact_title">Contact Me</h3>
+                            <span class="contact_subtitle">+91 9445547972</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <i class="uil uil-envelope-alt contact_icon"></i>
+
+                        <div id="contact-email">
+                            <h3 class="contact_title">Email-Id</h3>
+                            <span class="contact_subtitle">kishanjalan01@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <i class="uil uil-location-pin-alt contact_icon"></i>
+                        <div>
+                            <h3 class="contact_title">Location</h3>
+                            <span class="contact_subtitle">Chennai, Tamil Nadu</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="https://formspree.io/f/xaygoprz" method="POST" class="contact_form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="name" class="contact_label">Name</label>
+                            <input name="name" type="text" id="name" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="email" class="contact_label">Email</label>
+                            <input name="email" id="email"type="email" class="contact_input" required>
+                        </div>
+                    </div>
+                    <div class="contact_content">
+                        <label for="message" class="contact_label">Message</label>
+                        <textarea name="message" id="" cols="0" rows="7" class="contact_input"></textarea>
+                    </div>
+                    <div>
+                        <button class="button button-flex" type="submit">Send Message
+                            <i class="uil uil-message button_icon"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!---------------- /Contact ---------------->
+    </main>
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-= /MAIN =-=-=-=-=-=-=-=-=-=-=-=-=-->
+
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-= FOOTER =-=-=-=-=-=-=-=-=-=-=-=-=-->
+    <footer class="footer">
+        <div class="footer_bg">
+            <div>
+                <div class="footer_container container grid">
+                    <div>
+                        <h1 class="footer_title">Kishan Jalan</h1>
+                        <span class="footer_subtitle">Java Backend Developer</span>
+                    </div>
+                    <div class="footer_socials">
+                        <a href="https://github.com/kishanjalan11" target="_blank" class="footer_social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kishan-jalan-517497246/" target="_blank" class="footer_social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <p class="footer_copy">&#169; Kishan Jalan | All rights reserved | 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-= /FOOTER =-=-=-=-=-=-=-=-=-=-=-=-=-->
+
+
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-= SCROLL TOP =-=-=-=-=-=-=-=-=-=-=-=-=-->
+    <a href="#home" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-= JAVASCRIPT LINKED FILES =-=-=-=-=-=-=-=-=-=-=-=-=-->
+    <script src="./Script/script.js"></script>
+    <script src="./Script/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/github-calendar@1.1.0/dist/github-calendar.min.js"></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/github-calendar@2.0.0/dist/github-calendar.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <!---------------- AUTO-TYPE SCRIPT ---------------->
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Java Backend Developer"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true,
+        });
+    </script>
+    <!---------------- PROJECT SLIDER ---------------->
+    <script>
+        let swiperPortfolio = new Swiper('.swiper-container', {
+            cssMode: true,
+            loop: true,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            //mousewheel: true,
+            keyboard: true,
+        });
+
+        var swiper = new Swiper(".mySwiper", {
+            direction: "vertical",
+            slidesPerView: 1,
+            spaceBetween: 30,
+            mousewheel: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+    <!---------------- GITHUB CALENDER ---------------->
+    <script>
+        // or enable responsive functionality
+        document.addEventListener("DOMContentLoaded", function () {
+    GitHubCalendar(".calendar", "rishilpatel157", {
+        responsive: true,
+        global_stats: true,
+        tooltips: true,
+    });
+});
+
+    //     GitHubCalendar(".calendar", "rishilpatel157", {
+    //    proxy (username) {
+    //      return fetch(`https://your-proxy.com/github?user=rishilpatel157`)
+    //    }
+    // }).then(r => r.text())
+    </script>
+    <!---------------- SCROLL REVEAL ANIMATION ---------------->
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            // reset: true
+        })
+
+        sr.reveal('.home_data', { delay: 200 });
+        sr.reveal('.home_img', { delay: 200 });
+        sr.reveal('.home_social', { delay: 200 });
+        sr.reveal('.home_social-icon', { interval: 100 });
+        sr.reveal('.home_scroll', { delay: 200 });
+
+        sr.reveal('.about_img', { delay: 200 });
+        sr.reveal('.about_data', { delay: 200 });
+        sr.reveal('.about_info', { interval: 200 });
+        sr.reveal('.about_buttons', { interval: 100 });
+        sr.reveal('.qualification', { delay: 200 });
+
+        sr.reveal('.skills_container', {});
+        sr.reveal('.skills_content', { delay: 200 });
+        sr.reveal('.skills_header', { interval: 100 });
+
+        sr.reveal('.section_subtitle', { delay: 200 });
+        sr.reveal('.portfolio_container', { delay: 200 });
+
+        sr.reveal('.statistics_container>img', { interval: 100 });
+        sr.reveal('.calendar', { delay: 200 });
+
+        sr.reveal('.contact_container', {});
+        sr.reveal('.contact_information', { interval: 100 });
+        sr.reveal('form>div', { interval: 200 });
+
+        sr.reveal('.footer', {});
+        sr.reveal('.footer_container>div', { interval: 100 });
+    </script>
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-= /JAVASCRIPT LINKED FILES =-=-=-=-=-=-=-=-=-=-=-=-=-->
+</body>
+</html>
