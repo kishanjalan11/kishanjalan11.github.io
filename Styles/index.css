@@ -378,6 +378,7 @@ img {
 
 /* ====== HOME ====== */
 .home_container {
+    margin-top: -40px;
     gap: 1rem;
 }
 
